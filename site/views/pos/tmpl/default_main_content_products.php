@@ -245,7 +245,7 @@ if (!empty($this->items)) {
 		if (!empty($dP)) { echo $layoutP->render($dP);}
 
 		// VIEW PRODUCT BUTTON
-		echo '<div class="ph-category-add-to-cart-box '.$lt.'">';
+		echo ("<button onclick=\"location.href='https://pubs.acs.org/doi/10.1021/jf00006a024'\">View publication</button>");
 
 		// :L: Stock status
 		if (!empty($dSO)) { echo $dSO;}
